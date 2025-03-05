@@ -17,11 +17,13 @@ npm install b23_bot
 
 ## 配置
 
-创建 config.toml 文件:
+napcat开启服务端ws
+
+修改 config.toml 文件:
 
 ```toml
-host = "127.0.0.1"
-port = 6700
+host = "127.0.0.1"  # 监听地址
+port = 6700        # 监听端口
 root = [123456789]  # 主人QQ号
 admin = []  # 管理员QQ号
 plugins = ["cmd", "demo"]  # 启用的插件

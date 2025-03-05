@@ -12,7 +12,14 @@
 ## 安装
 
 ```bash
-npm install b23_bot
+# 克隆本项目
+git clone https://github.com/wwcxin/b23_bot.git
+
+# 进入项目目录
+cd b23_bot
+
+# 安装依赖
+npm install
 ```
 
 ## 配置

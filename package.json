@@ -1,0 +1,31 @@
+{
+  "name": "b23_bot",
+  "version": "1.0.0",
+  "description": "QQ机器人bot，对接服务端napcat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "napcat",
+    "qqbot",
+    "bot"
+  ],
+  "author": "xinc",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "node-napcat-ts": "^0.4.8",
+    "toml": "^3.0.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
